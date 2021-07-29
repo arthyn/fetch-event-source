@@ -16,6 +16,7 @@
   "scripts": {
     "clean": "rimraf ./lib ./coverage",
     "prebuild": "npm run clean",
+    "prepare": "npm run build",
     "build": "tsc && tsc -p tsconfig.esm.json",
     "test": "nyc jasmine --config=jasmine.json",
     "prepublishOnly": "npm run build && npm run test"
