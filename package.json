@@ -13,14 +13,6 @@
   "module": "lib/esm/index.js",
   "types": "lib/cjs/index.d.ts",
   "sideEffects": false,
-  "files": [
-    "lib/cjs/index.js",
-    "lib/cjs/fetch.js",
-    "lib/cjs/parse.js",
-    "lib/esm/index.js",
-    "lib/esm/fetch.js",
-    "lib/esm/parse.js"
-  ],
   "scripts": {
     "clean": "rimraf ./lib ./coverage",
     "prebuild": "npm run clean",
